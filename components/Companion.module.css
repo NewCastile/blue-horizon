@@ -1,0 +1,27 @@
+/** @format */
+
+.wrapper {
+	position: fixed;
+	bottom: 0rem;
+	left: 5rem;
+	width: max-content;
+	height: max-content;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin-bottom: 1.2rem;
+	color: rgb(255, 255, 255);
+	background-color: rgb(36, 132, 221);
+	font-weight: bold;
+	font-size: 0.9rem;
+	border-radius: 1rem;
+	box-sizing: content-box;
+}
+
+.link {
+	height: 1rem;
+	font: 0.9rem;
+}

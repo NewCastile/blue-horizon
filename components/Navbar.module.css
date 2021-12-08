@@ -1,0 +1,32 @@
+/** @format */
+
+.wrapper {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 1.2em;
+	background-color: rgb(36, 132, 221);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.navbar > * {
+	flex: 1 1 25%;
+}
+
+.navbar > * + * {
+	padding-right: 10px;
+}
+
+.nav_item {
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
