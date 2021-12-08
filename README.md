@@ -2,9 +2,10 @@
 
 ## Demo
 
-![](https://github.com/NewCastile/blue-horizon/tree/main/assets/blue-horizon-demo.gif)
+![blue-horizon-demo](https://user-images.githubusercontent.com/78671291/145281369-f2028ff3-4846-45b4-9bb1-7f29b2a551d5.gif)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), using the [NewsAPI](https://newsapi.org/).
+
 
 ## Getting Started
 
