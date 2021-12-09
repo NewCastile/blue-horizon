@@ -22,11 +22,9 @@ const getNews = async (
 	pageParam: number,
 	params: IQueryState
 ): Promise<INewsResult> => {
-	const url = `http://localhost:3000/api/news/q/${
-		params.topic as string
-	}?page=${pageParam}&from=${params.from}&to=${params.to}&lang=${
-		params.lang
-	}&sort=${params.sort}`
+	const url = `/api/news/q/${params.topic as string}?page=${pageParam}&from=${
+		params.from
+	}&to=${params.to}&lang=${params.lang}&sort=${params.sort}`
 	const data = await axios.get(url).then((res) => res.data)
 	return {
 		...data,

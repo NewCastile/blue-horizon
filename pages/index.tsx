@@ -116,7 +116,7 @@ const getNews = async (
 	pageParam: number,
 	country: string
 ): Promise<INewsResult> => {
-	const url = `http://localhost:3000/api/news/${pageParam}?country=${country}`
+	const url = `/api/news/${pageParam}?country=${country}`
 	const data = await axios.get(url).then((res) => res.data)
 	return data
 }
